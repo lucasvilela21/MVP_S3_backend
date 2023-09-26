@@ -41,4 +41,4 @@ def apresenta_vendas(vendas: List[Venda]):
             "forma de pagamento": venda.forma_pagamento,
         })
 
-    return {"Vendas": result}
+    return {"vendas": result}
