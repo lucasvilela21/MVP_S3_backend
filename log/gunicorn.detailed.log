@@ -1,0 +1,17 @@
+[2023-09-27 00:15:17,930] INFO _log() L224  127.0.0.1 - - [27/Sep/2023 00:15:17] "GET /artesoes HTTP/1.1" 200 - - call_trace=C:\Users\lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-27 00:15:18,112] INFO _log() L224  127.0.0.1 - - [27/Sep/2023 00:15:18] "GET /artesoes HTTP/1.1" 200 - - call_trace=C:\Users\lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-27 00:15:18,295] INFO _log() L224  127.0.0.1 - - [27/Sep/2023 00:15:18] "GET /artesoes HTTP/1.1" 200 - - call_trace=C:\Users\lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-27 00:15:18,478] INFO _log() L224  127.0.0.1 - - [27/Sep/2023 00:15:18] "GET /artesoes HTTP/1.1" 200 - - call_trace=C:\Users\lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-27 00:15:45,499] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.55:5001 (Press CTRL+C to quit) - call_trace=C:\Users\lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-27 00:15:48,301] INFO _log() L224  127.0.0.1 - - [27/Sep/2023 00:15:48] "GET /artesoes HTTP/1.1" 200 - - call_trace=C:\Users\lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-27 00:15:52,505] INFO _log() L224  127.0.0.1 - - [27/Sep/2023 00:15:52] "GET /vendas HTTP/1.1" 200 - - call_trace=C:\Users\lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-27 00:15:52,506] INFO _log() L224  127.0.0.1 - - [27/Sep/2023 00:15:52] "GET /artesoes HTTP/1.1" 200 - - call_trace=C:\Users\lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-27 00:16:31,130] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.55:5001 (Press CTRL+C to quit) - call_trace=C:\Users\lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-27 00:16:34,554] INFO _log() L224  127.0.0.1 - - [27/Sep/2023 00:16:34] "GET /artesoes HTTP/1.1" 200 - - call_trace=C:\Users\lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-27 00:16:34,558] INFO _log() L224  127.0.0.1 - - [27/Sep/2023 00:16:34] "GET /vendas HTTP/1.1" 200 - - call_trace=C:\Users\lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\_internal.py L224 
