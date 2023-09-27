@@ -38,7 +38,7 @@ def apresenta_vendas(vendas: List[Venda]):
         result.append({
             "box": venda.box_artesao,
             "valor": venda.valor,
-            "forma de pagamento": venda.forma_pagamento,
+            "pagamento": venda.forma_pagamento,
         })
 
     return {"vendas": result}

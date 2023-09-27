@@ -243,7 +243,7 @@ def get_vendas():
 
     if not vendas:
         # se não há artesões cadastrados
-        return {"Vendas": []}, 200
+        return {"vendas": []}, 200
     else:
         logger.debug(f"%d Artesões encontrados" % len(vendas))
         # retorna a representação de artesão
