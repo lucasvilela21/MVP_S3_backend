@@ -18,7 +18,7 @@ CORS(app)
 home_tag = Tag(name="Documentação", description="Seleção de documentação: Swagger, Redoc ou RapiDoc")
 artesao_tag = Tag(name="Artesão", description="Adição, visualização e remoção de artesões à base")
 venda_tag = Tag(name="Vendas", description="Adição de uma venda de um Artesão cadastrado na base")
-clima_tag = Tag(name="Clima", description="Apresenta inforções sobre o clima no dia atual")
+currency_tag = Tag(name="Currency", description="Apresenta informações sobre o conversão moeda no dia atual")
 
 @app.get('/', tags=[home_tag])
 def home():
@@ -145,8 +145,8 @@ def put_artesao(query: ArtesaoBuscaSchema, form: ArtesaoSchemaPut):
     """
     artesao = Artesao(
         box=query.box,
-        nome=query.nome,
-        celular=query.celular)
+        nome=form.nome,
+        celular=form.celular)
     artesao_box = query.box
     logger.debug(f"Alterando dados sobre o Artesao #{artesao_box}")
     # criando conexão com a base
